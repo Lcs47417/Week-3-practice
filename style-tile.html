@@ -57,22 +57,3 @@
 
 </body>
 </html>
-Notice each color swatch has two classes on it, for example class="swatch swatch-primary". An HTML element can carry more than one class at once, separated by a space, and it picks up the CSS rules from every class listed. swatch will hold the shape every color box shares: width, height, rounded corners, spacing. Each of the four modifier classes, swatch-primary, swatch-neutral, swatch-accent, and swatch-cta, will hold just the one background color that makes that box different from the others. This avoids repeating the same width, height, and border-radius four separate times.
-Add these rules to css/style.css:
-.swatch {
-  display: inline-block;
-  width: 120px;
-  height: 80px;
-  margin-bottom: 8px;
-  border-radius: 4px;
-  vertical-align: top;
-}
-
-.swatch-primary { background-color: #2f4a3d; }
-.swatch-neutral { background-color: #262220; }
-.swatch-accent { background-color: #c1652b; }
-.swatch-cta { background-color: #a8541f; }
-
-.type-sample-h1 { font-size: 2.5rem; }
-.type-sample-h2 { font-size: 1.75rem; }
-.type-sample-h3 { font-size: 1.25rem; }
