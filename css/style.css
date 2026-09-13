@@ -14,6 +14,7 @@ header nav a {
   color: #ffffff;
   margin-right: 16px;
 }
+
 h1 {
   font-size: 2.5rem;
 }
@@ -31,6 +32,7 @@ h3 {
 p {
   font-size: 1rem;
 }
+
 main {
   max-width: 800px;
   margin: 0 auto;
@@ -44,12 +46,14 @@ h2 {
 p {
   margin-bottom: 32px;
 }
+
 footer {
   text-align: center;
   font-size: 0.875rem;
   color: #666666;
   padding: 20px;
 }
+
 .cta {
   display: inline-block;
   background-color: #a8541f;
@@ -59,3 +63,22 @@ footer {
   border-radius: 4px;
   margin-top: 24px;
 }
+
+.swatch {
+  display: inline-block;
+  width: 120px;
+  height: 80px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  vertical-align: top;
+}
+
+.swatch-primary { background-color: #2f4a3d; }
+.swatch-neutral { background-color: #262220; }
+.swatch-accent { background-color: #c1652b; }
+.swatch-cta { background-color: #a8541f; }
+
+.type-sample-h1 { font-size: 2.5rem; }
+.type-sample-h2 { font-size: 1.75rem; }
+.type-sample-h3 { font-size: 1.25rem; }
+.type-sample-body { font-size: 1rem; }
